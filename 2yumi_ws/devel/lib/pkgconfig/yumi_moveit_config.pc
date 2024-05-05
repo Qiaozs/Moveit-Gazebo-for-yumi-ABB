@@ -1,0 +1,8 @@
+prefix=/home/zishao/2yumi_ws/devel
+
+Name: yumi_moveit_config
+Description: Description of yumi_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

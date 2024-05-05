@@ -1,0 +1,8 @@
+prefix=/home/zishao/2yumi_ws/install
+
+Name: yumi_gazebo
+Description: Description of yumi_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

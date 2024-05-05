@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: yumi_description
+    relative_path: urdf/yumi.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/yumi.srdf
+  CONFIG:
+    author_name: Qzs
+    author_email: 1744800221@qq.com
+    generated_timestamp: 1714365921

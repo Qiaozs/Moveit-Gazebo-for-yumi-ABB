@@ -1,0 +1,2 @@
+yumi_demo:yumi_description:yumi_gazebo:yumi_moveit_config
+-DCATKIN_DEVEL_PREFIX=/home/zishao/yumi_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zishao/yumi_ws/install -G Unix Makefiles

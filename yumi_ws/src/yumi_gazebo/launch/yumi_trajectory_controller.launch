@@ -1,0 +1,8 @@
+<launch>
+
+    <rosparam file="$(find yumi_gazebo)/config/yumi_trajectory_control.yaml" command="load"/>
+
+    <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+          output="screen" ns="/yumi" args="arm_l_controller arm_r_controller"/>
+
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/zishao/yumi_ws/devel
+
+Name: yumi_demo
+Description: Description of yumi_demo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

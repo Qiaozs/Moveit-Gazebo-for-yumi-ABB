@@ -1,0 +1,15 @@
+<launch>
+  
+    <!-- Launch Gazebo  -->
+    <include file="$(find yumi_gazebo)/launch/yumi_gazebo_world.launch" />
+
+    <!-- ros_control arm launch file -->
+    <include file="$(find yumi_gazebo)/launch/yumi_gazebo_states.launch" />   
+
+    <!-- ros_control trajectory control dof arm launch file -->
+    <include file="$(find yumi_gazebo)/launch/yumi_trajectory_controller.launch" />
+
+    <!-- moveit launch file -->
+    <include file="$(find yumi_moveit_config)/launch/moveit_planning_execution.launch" />
+
+</launch>
